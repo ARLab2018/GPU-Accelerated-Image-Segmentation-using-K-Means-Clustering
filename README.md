@@ -28,17 +28,22 @@ Tools: CMake 3.18+ and Build-Essential (G++ 11+).
 ## ⚙️ Build Instructions
 
 ## Clone the repository
+```
 git clone [https://github.com/yourusername/KMeans-GPU.git](https://github.com/yourusername/KMeans-GPU.git)
 
-cd KMeans-GPU
+cd KMeans-GPU 
+
+```
 
 ## Create build directory
-mkdir build && cd build
+```mkdir build && cd build```
 
 ## Configure and Compile
+```
 cmake ..
-make -j$(npx --yes cpu-features-max-threads)
 
+make -j$(npx --yes cpu-features-max-threads)
+```
 
 ## 💻 Usage
 
