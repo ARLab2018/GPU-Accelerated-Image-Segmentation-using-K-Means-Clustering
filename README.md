@@ -29,6 +29,7 @@ Tools: CMake 3.18+ and Build-Essential (G++ 11+).
 
 ## Clone the repository
 git clone [https://github.com/yourusername/KMeans-GPU.git](https://github.com/yourusername/KMeans-GPU.git)
+
 cd KMeans-GPU
 
 ## Create build directory
